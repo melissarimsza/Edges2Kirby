@@ -2,7 +2,7 @@ const SIZE = 256, sampleNum = 7;
 let inputCanvas, outputContainer, statusMsg, transferBtn, sampleIndex = 0, modelReady = false, isTransfering = false;
 const inputImgs = [], outputImgs = [];
 
-const edges2pikachu = pix2pix('./models/kirby_BtoA.pict', modelLoaded);
+const edges2kirby = pix2pix('./models/kirby_BtoA.pict', modelLoaded);
 
 function setup() {
   // Create canvas
@@ -58,7 +58,7 @@ function transfer() {
   // Select canvas DOM element
   let canvasElement = document.getElementById('defaultCanvas0');
   // Apply pix2pix transformation
-  edges2pikachu.transfer(canvasElement, result => {
+  edges2kirby.transfer(canvasElement, result => {
     // Clear output container
     outputContainer.html('');
     // Create an image based result
