@@ -1,6 +1,6 @@
 # pix2pix in tensorflow.js
 
-<a href="https://ibb.co/e0oUUd"><img src="https://preview.ibb.co/fXP3pd/Screen_Shot_2018_06_17_at_11_06_09_PM.png" alt="Screen_Shot_2018_06_17_at_11_06_09_PM" border="0"></a>
+<a href="https://ibb.co/e0oUUd"><img  alt="demo.png" border="0"></a>
 
 Try it yourself: Download/clone the repository and run it locally:
 ```bash
