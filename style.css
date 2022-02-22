@@ -90,14 +90,14 @@ button:hover {
 }
 
 .star {
-  animation: pokeball-spin infinite 5s linear;
+  animation: star-spin infinite 5s linear;
   height: 60px;
   margin-left: 20px;
   margin-bottom: 10px;
 }
 
 
-@keyframes pokeball-spin {
+@keyframes star-spin {
   0%   {
     transform:rotate(0deg);
   }
